@@ -18,4 +18,11 @@ align-items:center;
 background-color:#2a50ff;
 `;
 
+export const BackToHome = styled.div`
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: white;
+  font-size: 25px;
+`;
 
