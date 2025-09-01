@@ -26,3 +26,8 @@ export const BackToHome = styled.div`
   font-size: 25px;
 `;
 
+export const Button = styled.div`
+`;
+
+export const Inputfield = styled.div`
+`;
