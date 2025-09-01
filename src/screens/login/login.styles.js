@@ -30,7 +30,13 @@ export const Button = styled.div`
 
 `;
 
-export const Inputfield = styled.div`
+export const Inputfield = styled.input`
+margin-left:30px;
+width:570px;
+height:50px;
+border:none;
+border-radius:5px;
+background-color:#E4DCF5;
 `;
 
 export const LoginText = styled.h1`
