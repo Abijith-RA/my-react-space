@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Mainpage, BackToHome, LoginText, FieldName, Inputfield, Button, ButtonText, CreateAccountText, Redtext } from './login.styles'
+import { Container, Mainpage, BackToHome, LoginText, FieldName, Inputfield, Button, ButtonText, CreateAccountText, Redtext, LoginBelowText } from './login.styles'
 
 const Login = () => {
   return (
@@ -8,6 +8,7 @@ const Login = () => {
     <Mainpage>
     <Container>
     <LoginText>Login</LoginText>
+    <LoginBelowText>Hai Welcome to LoginPage,If you already have an account Login</LoginBelowText>
     <div>
     <FieldName>username</FieldName>
     <Inputfield/>
