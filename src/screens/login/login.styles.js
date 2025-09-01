@@ -27,7 +27,21 @@ export const BackToHome = styled.div`
 `;
 
 export const Button = styled.div`
+display:flex;
+margin-top:30px;
+align-self:center;
+background-color: #615AC7;
+width:500px;
+height:55px;
+justify-content:center;
+align-items:center;
+border-radius:5px;
+`;
 
+export const ButtonText = styled.div`
+color:white;
+font-family:bold;
+font-size:25px;
 `;
 
 export const Inputfield = styled.input`
@@ -49,4 +63,13 @@ export const FieldName = styled.h1`
 margin-left:30px;
 color:#0D0C0C;
 font-size:17px;
+`;
+
+export const CreateAccountText = styled.p`
+color:grey;
+text-align:center;
+`;
+
+export const Redtext = styled.span`
+color:red;
 `;
