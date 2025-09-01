@@ -1,10 +1,13 @@
 import React from 'react'
+import { Container, Mainpage } from './login.styles'
 
 const Login = () => {
   return (
-  <div>
+    <Mainpage>
+    <Container>
 
-  </div>
+    </Container>
+    </Mainpage>
   )
 }
 
