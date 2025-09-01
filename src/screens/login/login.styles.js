@@ -21,7 +21,7 @@ display:flex;
 flex-direction:column;
 width:630px;
 height:500px;
-background-color:#F9F6F6;
+background-color: #ffffffff;
 border-radius:20px;
 box-shadow:10px 10px 30px #252525e8;
 `;
