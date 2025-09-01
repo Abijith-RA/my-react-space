@@ -18,7 +18,7 @@ const Login = () => {
         <Inputfield/>
     </div>
     <Button onClick={()=>{}}><ButtonText>Login</ButtonText></Button>
-    <CreateAccountText>Don't have accont? <Redtext>Create Now</Redtext></CreateAccountText>
+    <CreateAccountText>Don't have accont? <Redtext> Create Now</Redtext></CreateAccountText>
     </Container>
     </Mainpage>
     </div>
