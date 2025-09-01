@@ -3,10 +3,11 @@ import styled from "styled-components";
 export const Container = styled.div`
 display:flex;
 flex-direction:column;
-width:600px;
-height:400px;
+width:630px;
+height:650px;
 background-color:#F9F6F6;
 border-radius:20px;
+box-shadow:10px 10px 30px #252525e8;
 `;
 
 export const Mainpage = styled.div`
@@ -16,3 +17,5 @@ justify-content:center;
 align-items:center;
 background-color:#2a50ff;
 `;
+
+
