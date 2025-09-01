@@ -5,7 +5,7 @@ display:flex;
 flex-direction:column;
 width:600px;
 height:400px;
-background-color:black;
+background-color:#F9F6F6;
 border-radius:20px;
 `;
 
