@@ -19,15 +19,28 @@ background-color:#2a50ff;
 `;
 
 export const BackToHome = styled.div`
-  position: absolute;
-  top: 20px;
-  left: 20px;
-  color: white;
-  font-size: 25px;
+  position:absolute;
+  top:20px;
+  left:20px;
+  color:white;
+  font-size:25px;
 `;
 
 export const Button = styled.div`
+
 `;
 
 export const Inputfield = styled.div`
+`;
+
+export const LoginText = styled.h1`
+margin-left:30px;
+color:#000000;
+font-size:35px;
+`;
+
+export const FieldName = styled.h1`
+margin-left:30px;
+color:#0D0C0C;
+font-size:17px;
 `;
