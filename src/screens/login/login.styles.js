@@ -5,7 +5,7 @@ display:flex;
 height:100vh;
 justify-content:center;
 align-items:center;
-background-color:#2a50ff;
+background-color: #2a50ff;
 `;
 
 export const BackToHome = styled.div`
@@ -80,5 +80,6 @@ font-size:15px;
 
 export const Redtext = styled.span`
 color:red;
+cursor:pointer;
 font-size:18px;
 `;

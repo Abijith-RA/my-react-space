@@ -1,7 +1,13 @@
 import React from 'react'
 import { Container, Mainpage, BackToHome, LoginText, FieldName, Inputfield, Button, ButtonText, CreateAccountText, Redtext, LoginBelowText } from './login.styles'
+import { useNavigate } from 'react-router-dom'
 
 const Login = () => {
+const history = useNavigate() /*use navigate is a hooks funtion And the hooks fuction assign to a variable*/
+
+  const navigate = ()=>{
+    history('/register')
+  }
   return (
     <div>
     <BackToHome>Back to Home</BackToHome>
@@ -17,8 +23,8 @@ const Login = () => {
         <FieldName>Password</FieldName>
         <Inputfield/>
     </div>
-    <Button onClick={()=>{}}><ButtonText>Login</ButtonText></Button>
-    <CreateAccountText>Don't have accont? <Redtext> Create Now</Redtext></CreateAccountText>
+    <Button ><ButtonText>Login</ButtonText></Button>
+    <CreateAccountText>Don't have accont? <Redtext onClick={navigate}> Create Now</Redtext></CreateAccountText>
     </Container>
     </Mainpage>
     </div>
