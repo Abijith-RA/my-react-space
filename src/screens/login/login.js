@@ -20,7 +20,7 @@ const Login = () => {
         <FieldName>Password</FieldName>
         <Inputfield/>
     </div>
-    <Button ><ButtonText>Login</ButtonText></Button>
+    <Button onClick={() => history('/home')}><ButtonText>Login</ButtonText></Button>
     <CreateAccountText>Don't have accont? <Redtext onClick={() => history('/register')}> Create Now</Redtext></CreateAccountText>
     </Container>
     </Mainpage>

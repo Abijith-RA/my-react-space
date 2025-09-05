@@ -13,7 +13,7 @@ export const BackToHome = styled.div`
   top:20px;
   left:20px;
   color:white;
-  font-size:25px;
+  font-size:19px;
   cursor:pointer;
 `;
 
@@ -29,7 +29,7 @@ box-shadow:10px 10px 30px #252525e8;
 
 export const LoginText = styled.h1`
 margin-left:30px;
-color:#000000;
+color: #000000;
 font-size:35px;
 `;
 
@@ -42,7 +42,7 @@ font-size:18px;
 
 export const FieldName = styled.h1`
 margin-left:30px;
-color:#0D0C0C;
+color: #0D0C0C;
 font-size:17px;
 `;
 
@@ -65,6 +65,14 @@ height:55px;
 justify-content:center;
 align-items:center;
 border-radius:5px;
+cursor:pointer;
+
+transition: background-color 0.5s, color 0.5s;
+  
+&:hover {
+  background-color: #4c45a8ff; /* Green */
+  color: white;
+ }
 `;
 
 export const ButtonText = styled.div`
