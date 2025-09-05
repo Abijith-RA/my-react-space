@@ -14,6 +14,7 @@ export const BackToHome = styled.div`
   left:20px;
   color:white;
   font-size:25px;
+  cursor:pointer;
 `;
 
 export const Container = styled.div`

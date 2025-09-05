@@ -3,14 +3,11 @@ import { Container, Mainpage, BackToHome, LoginText, FieldName, Inputfield, Butt
 import { useNavigate } from 'react-router-dom'
 
 const Login = () => {
-const history = useNavigate() /*use navigate is a hooks funtion And the hooks fuction assign to a variable*/
+  const history = useNavigate(); /*use navigate is a hooks funtion And the hooks fuction assign to a variable*/
 
-  const navigate = ()=>{
-    history('/register')
-  }
   return (
     <div>
-    <BackToHome>Back to Home</BackToHome>
+    <BackToHome onClick={() => history('/home')}>Back to Home</BackToHome>
     <Mainpage>
     <Container>
     <LoginText>Login</LoginText>
@@ -24,7 +21,7 @@ const history = useNavigate() /*use navigate is a hooks funtion And the hooks fu
         <Inputfield/>
     </div>
     <Button ><ButtonText>Login</ButtonText></Button>
-    <CreateAccountText>Don't have accont? <Redtext onClick={navigate}> Create Now</Redtext></CreateAccountText>
+    <CreateAccountText>Don't have accont? <Redtext onClick={() => history('/register')}> Create Now</Redtext></CreateAccountText>
     </Container>
     </Mainpage>
     </div>
