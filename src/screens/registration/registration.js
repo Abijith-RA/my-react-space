@@ -1,6 +1,10 @@
 import React from 'react'
-import { Mainpage, Container, RegistrationText, RegiBelowText, FieldName, InputField } from './registration.styles'
+import { Mainpage, Container, RegistrationText, RegiBelowText, FieldName, InputField, Button, ButtonText, HaveAccountText, RedLoginText } from './registration.styles'
+import { useNavigate } from 'react-router-dom'
+
 const Registration = () => {
+  const history =useNavigate();
+
   return (
     <Mainpage>
       <Container>
@@ -12,6 +16,8 @@ const Registration = () => {
         <InputField></InputField>
         <FieldName>Create Password</FieldName>
         <InputField></InputField>
+        <Button><ButtonText>Register</ButtonText></Button>
+        <HaveAccountText>Already have a Accont, <RedLoginText onClick={() => history('/login')}>Login Here</RedLoginText></HaveAccountText>
       </Container>
     </Mainpage>
   )

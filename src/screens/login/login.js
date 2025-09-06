@@ -7,7 +7,7 @@ const Login = () => {
 
   return (
     <div>
-    <BackToHome onClick={() => history('/home')}>Back to Home</BackToHome>
+    <BackToHome>Back to Home</BackToHome>
     <Mainpage>
     <Container>
     <LoginText>Login</LoginText>

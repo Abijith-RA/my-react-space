@@ -46,3 +46,37 @@ background-color: #E4DCF5;
 border:none;
 border-radius:5px;
 `;
+
+export const Button = styled.div`
+margin-left:auto;
+margin-right:auto;
+margin-top:30px;
+display:flex;
+align-self:center;
+height:55px;
+width:500px;
+border-radius:9px;
+background-color: #615AC7;
+align-items:center;
+justify-content:center;
+`;
+
+export const ButtonText = styled.p`
+color:white;
+font-size:25px;
+font-family:bold;
+`;
+
+export const HaveAccountText = styled.p`
+color:grey;
+text-align:center;
+font-size:15px;
+`;
+
+export const RedLoginText = styled.span`
+color: #ff0000e5;
+font-weight:bold;
+cursor:pointer;
+font-size:18px;
+
+`;
