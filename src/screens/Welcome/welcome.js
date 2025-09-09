@@ -1,9 +1,14 @@
 import React from 'react'
-import { Mainpage } from './welcome.styles'
+import { MainPage, Navbar, TextNavbar } from './welcome.styles'
 
 const Welcome = () => {
   return (
-    <Mainpage>Welcome</Mainpage>
+    <Navbar>
+      <TextNavbar>Welcome To My_React_Space</TextNavbar>
+      <MainPage>
+
+      </MainPage>
+    </Navbar>
   )
 }
 

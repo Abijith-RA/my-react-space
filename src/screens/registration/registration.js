@@ -16,7 +16,7 @@ const Registration = () => {
         <InputField></InputField>
         <FieldName>Create Password</FieldName>
         <InputField></InputField>
-        <Button><ButtonText>Register</ButtonText></Button>
+        <Button onClick={() => history('/')}><ButtonText>Register</ButtonText></Button>
         <HaveAccountText>Already have a Accont, <RedLoginText onClick={() => history('/')}>Login Here</RedLoginText></HaveAccountText>
       </Container>
     </Mainpage>
